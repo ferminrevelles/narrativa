@@ -1,0 +1,105 @@
+/* Define el cuerpo del HTML común para todos los HTML */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 1.2vw;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #000;
+  margin: auto;
+  width: 100%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: yellow;
+}
+
+/* Se define la cabecera de la web */
+
+/* flex-container para colocar los elementos de la cabecera y su comportamiento */
+
+.header-container {
+  display: flex;
+  align-items: stretch;
+  background: linear-gradient(to bottom, hsl(74, 92%, 15%), #19b68c);
+  color: white;
+}
+
+/* logo cabecera */
+
+.header__img {
+  position: relative;
+  left: 20%;
+  margin: 5%;
+  width: 60%;
+  border-radius: 10px;
+}
+
+/* Define donde situar el título de "Portal de literatura narrativa */
+
+.header_title {
+  flex: 0 0 20%;
+  text-align: center;
+  position: relative;
+  margin: 2% 0;
+  font-family: Piedra, sans-serif;
+  font-size: 1.8vw;
+}
+
+/* Aquí se define el estilo para el menú horizontal "menú navegador" */
+
+.header__menu-nav {
+  flex: 0 0 50%;
+}
+
+/* Define donde situar el menú de navegación su comportamiento, estilo y márgenes */
+
+.nav__menu {
+  margin-top: 9vw;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav__menu-enlace {
+  display: inline-block;
+  justify-content: center;
+  color: #f2f2f2;
+  padding: 2% 5%;
+  text-decoration: none;
+  font-size: 1.1vw;
+  border: solid;
+  border-radius: 10px;
+  background-color: #2196f3;
+}
+
+.nav__menu-enlace:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav__menu-enlace:active {
+  color: grey;
+}
+
+/* Estilo para el link del menú activo */
+.activo {
+  background-color: black;
+  color: #ddd;
+}
+
+.nav__menu .icon {
+  display: none;
+}

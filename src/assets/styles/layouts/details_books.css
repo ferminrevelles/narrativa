@@ -1,0 +1,64 @@
+.skin_container-details {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: auto;
+  left: 7%;
+  margin: 1vw;
+  width: 30%;
+}
+
+.box__buy {
+  margin: 3% auto;
+  padding: 4%;
+  width: 70%;
+  background-color: black;
+  font-size: 1.3vw;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box__slide-container {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.box__slide {
+  font-size: 2vw;
+  background-color: rgb(133, 45, 63);
+  margin: 0 8%;
+}
+
+.box__container-description-book {
+  background-color: rgb(199, 152, 64);
+  width: 55%;
+  height: 100%;
+  font-size: 1.5vw;
+  padding: 2% 2%;
+  left: 6%;
+}
+
+.box__title-book {
+  margin: 0 10%;
+  text-align: center;
+  background-color: rgb(238, 238, 93);
+  border-radius: 10px;
+}
+
+.box__name-autor {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2vw;
+  text-decoration: underline;
+  padding-left: 5%;
+  color: white;
+}
+
+.box__summary {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.box__link-book {
+  background-color: black;
+}
