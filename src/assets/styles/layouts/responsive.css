@@ -113,6 +113,11 @@
     width: 90%; /* The width is 90%, when the viewport is 600px or smaller */
   }
 
+  .box__content-image {
+    width: 80%;
+    margin-left: auto;
+  }
+
   .box__container-description {
     width: 80%;
   }
@@ -131,9 +136,8 @@
     margin-top: 4%;
   }
 
-  .box__content-image {
+  .box__content-image-details {
     width: 50%;
-    margin-left: 5%;
   }
 
   .box__buy {
